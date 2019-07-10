@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Address"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/objective"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Objective"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Education"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Experience"
+        android:textColor="#000"/>
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create PDF" />
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open PDF" />
+
+
+</LinearLayout>
